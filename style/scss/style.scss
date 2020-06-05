@@ -1,5 +1,41 @@
+/* sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler node_modules/font-awesome/scss:node_modules/font-awesome/css style/scss:style/css   */
 .scrollspySite {
     position: relative;
     overflow: auto;
     height: 330px;
 }
+.class .altera-fonte-brand {
+    font-style: normal; //caso queira deixar alterar o estilo da fonte
+    font-size: 25.5em; //caso queira alterar o tamanho da fonte
+    font-weight: 900;
+    font-family: "Calibri" //caso queira mudar o tipo de fonte
+ 
+ }
+
+/*
+ .fundo-parede {
+     background-color: #90EE90;
+ }  
+*/
+
+ body{
+    background-color: #EEE9E9;
+ }
+
+ .borda-card {
+     background-color: rgb(162, 210, 230);
+     border-color: black;
+     border-width: 4px;
+     border-radius: 20px;
+     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+ }
+
+ .borda-card-capa {
+     border-radius: 20px 20px 0px 0px;
+ }
+
+ .pe-grande-card {
+     width: 20%;
+     
+ }
