@@ -4,26 +4,66 @@
   overflow: auto;
   height: 330px; }
 
-.class .altera-fonte-brand {
+.altera-fonte-brand {
+    position: relative;
   font-style: normal;
-  font-size: 25.5em;
-  font-weight: 900;
-  font-family: "Calibri"; }
+  font-size: 60px;
+font-family: 'Sriracha', cursive;
+  color: black;
+  padding: center;
+}
 
 /*
  .fundo-parede {
      background-color: #90EE90;
  }  
 */
+
+.titulo {
+    color:black;
+}
+
+.menu-top {
+    background-color: #CAE1FF; 
+    font-family: 'Sriracha', cursive;
+    
+}
+
 body {
-  background-color: #EEE9E9; }
+  background-color: #CAE1FF; 
+}
+
+/* Texto do Carousel */
+.text-car1 {
+    color: white;
+    font-size: 55px;
+    font-family: Calibri;
+    font-weight: 600;
+}
+
+.text-car2 {
+    color: white;
+    font-size: 55px;
+    font-family: Calibri;
+    font-weight: 600;
+    position: relative;
+    
+}
+
+.text-car {
+    font-size: 55px;
+    position: relative;
+    bottom: 100px;
+    font-family: Calibri;
+    font-weight: 600;
+}
 
 .borda-card {
-  background-color: #a2d2e6;
+  background-color: #F0FFFF;
   border-color: black;
   border-width: 4px;
   border-radius: 20px;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2); }
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0); }
 
 .borda-card-capa {
   border-radius: 20px 20px 0px 0px; }
