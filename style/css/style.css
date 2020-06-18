@@ -1,4 +1,4 @@
-/* sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler node_modules/font-awesome/scss:node_modules/font-awesome/css style/scss:style/css   */
+/* sass --watch style/scss:style/css   */
 
 body {
   background-color: #CAE1FF; 
