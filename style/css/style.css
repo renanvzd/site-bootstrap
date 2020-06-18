@@ -1,23 +1,10 @@
 /* sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler node_modules/font-awesome/scss:node_modules/font-awesome/css style/scss:style/css   */
-.scrollspySite {
-  position: relative;
-  overflow: auto;
-  height: 330px; }
 
-.altera-fonte-brand {
-    position: relative;
-  font-style: normal;
-  font-size: 60px;
-font-family: 'Sriracha', cursive;
-  color: black;
-  padding: center;
+body {
+  background-color: #CAE1FF; 
 }
 
-/*
- .fundo-parede {
-     background-color: #90EE90;
- }  
-*/
+/************************ MENU ************************/
 
 .titulo {
     color:black;
@@ -29,11 +16,72 @@ font-family: 'Sriracha', cursive;
     
 }
 
-body {
-  background-color: #CAE1FF; 
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  
 }
 
-/* Texto do Carousel */
+.altera-fonte-brand {
+  position: relative;
+  font-size: 40px;
+  font-family: 'Sriracha', cursive;
+  color: black;
+}
+
+.nav-menu {
+    padding-right: 10px;
+    
+}
+
+.navbar-toggler {
+    
+    padding-bottom: 30px;
+}
+
+
+.nav-bloco-menu {
+    background-color: #CAE1FF;
+    color: black;
+    font-size: 20px;
+    grid-row: 3;
+    
+    position: relative;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+    width: 130px;
+    text-align: center;
+}
+
+.nav-bloco-menu:hover {
+  background-color: #0000EE;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.nav-bloco-moradas {
+    background-color: #87CEFA;
+    color: black;
+    position: relative;
+}
+
+/*
+ .fundo-parede {
+     background-color: #90EE90;
+ }  
+*/
+
+/************************ CAROUSEL ************************/
+
+.carousel1 {
+    position: absolute;
+    background-color: black;
+}
+
+
+/************************ CARDS ************************/
 .text-car1 {
     color: white;
     font-size: 55px;
@@ -72,3 +120,21 @@ body {
   width: 20%; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/************************ Youtube ************************/
+
+.quadro-youtube {
+    background-color: #CAE1FF;
+}
+
+
+/************************ Footer ************************/
+
+.footer {
+    background-color: #B2DFEE;
+
+    margin-top: auto;
+}
+
+

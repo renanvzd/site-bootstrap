@@ -17,7 +17,7 @@
      <nav class="navbar navbar-expand-lg navbar-dark menu-top">
       <div class="container">
           
-              <a class="navbar-brand mb-2" href="#"><p class="altera-fonte-brand">Moradas do Pé Grande </p></a>
+              <a class="navbar-brand" href="#"><p class="altera-fonte-brand">Moradas do Pé Grande </p></a>
           </div>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
@@ -26,18 +26,18 @@
     </div>
     
 
-        <div class="collapse navbar-collapse col-sm-8 text-center" id="navbarSite">
+        <div class="collapse navbar-collapse col-sm-6 text-center" id="navbarSite">
             <ul class="navbar-nav nav nav-pills nav mx-auto">
-              <li class="nav-item">
-                <a class="btn btn-primary border border-dark" href="#">Quem Somos</a>
+              <li class="nav-item nav-menu">
+                <a class="btn nav-bloco-menu" href="#">Quem Somos</a>
               </li>
-              <li class="nav-item">
-                <a class="btn btn-primary border border-dark" href="#">Tarifas</a>
+              <li class="nav-item nav-menu">
+                <a class="btn nav-bloco-menu" href="#">Tarifas</a>
               </li>
               
-              <li class="nav-item dropdown ">
-                  <a class="dropdown-toggle btn btn-primary border border-dark" data-toggle="dropdown" aria-expanded="false" href="#">Moradas </a>
-                <div class="dropdown-menu bg-primary" role="menu">
+              <li class="nav-item dropdown nav-menu">
+                  <a class="dropdown-toggle btn btn nav-bloco-menu" data-toggle="dropdown" aria-expanded="false" href="#">Moradas </a>
+                <div class="dropdown-menu nav-bloco-moradas" role="menu">
                   <a class="dropdown-item" role="presentation" href="#">1 - Moradas A</a>
                   <a class="dropdown-item" role="presentation" href="#">2 - Moradas B</a>
                   <a class="dropdown-item" role="presentation" href="#">3 - Moradas C</a>
@@ -46,8 +46,8 @@
                 </div>
             </li>
               
-            <li class="nav-item">
-                <a class="btn btn-primary border border-dark" href="#">Contato</a>
+            <li class="nav-item nav-menu">
+                <a class="btn btn nav-bloco-menu" href="#">Contato</a>
               </li>
             <li class="nav-item">
             <a class="btn btn-primary border border-dark" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -75,27 +75,27 @@
       </ol>
 
       <!-- Incluir imagens no Carrosel -->
-      <div class="carousel-inner">
+      <div class="carousel-inner vs">
           
         <div class="carousel-item active">
             
           <img src="images/galeria-01.jpg" class="img-fluid d-block">
           <div class="carousel-caption d-none d-md-block text-carousel">    <!-- d-none serve para exibir as legendas a partir de determinado tamanho-->
-            <p class="text-car1">Pousada Pé Grande </p>
+            <!--<p class="text-car1">Pousada Pé Grande </p>-->
             
           </div>
         </div>
         <div class="carousel-item">
           <img src="images/galeria-02.jpg" class="img-fluid d-block">
           <div class="carousel-caption d-none d-md-block text-carousel">    <!-- d-none serve para exibir as legendas a partir de determinado tamanho-->
-            <p class="text-car2">Sobrados </p>
+            <!--<p class="text-car2">Sobrados </p>-->
             
           </div>
         </div>
         <div class="carousel-item">
           <img src="images/galeria-04.jpg" class="img-fluid d-block"> 
           <div class="carousel-caption d-none d-md-block text-carousel3">    <!-- d-none serve para exibir as legendas a partir de determinado tamanho-->
-            <p class="text-car">Casa dos Fundos </p>
+            <!--<p class="text-car">Casa dos Fundos </p>-->
           </div>
         </div>
       </div>
@@ -116,8 +116,8 @@
           <div class="col-12 text-center mt-5 mb-2"> <!-- my-5 aumenta espaçamento inferior e superior -->
             <h1 class="display-6"><i class="text-primary" aria-hidden="true"></i> Conheça as opções que temos para você:</h1>
             <p>Texto abaixo do Banner</p>
-            <hr style="width:100%; background-color: black">
-          </div>
+     <hr style="width:100%; background-color: black ">  
+            </div>
         </div>
      
      <!-- Incluir Cards -->
@@ -257,20 +257,20 @@
             </div>
           
           </div>
+        
         </div>
-
-        <hr style="width:100%; background-color: black ">
+<hr style="width:100%; background-color: black ">  
     </div>
    
   </div>
 
-      <div class="jumbotron jumbotron-fluid">
+      <div class="quadro-youtube">
         <div class="container">
           <div class="row">
             <div class="col-12 text-center">
                 <h1 class="display-6"><i class="fa fa-video-camera text-primary" aria-hidden="true"></i> Tramandaí & Moradas do Pé Grande</h1>
                 <p class="lead">Percorra por Tramandaí e conheça as moradas!</p>
-            <hr>
+            
             </div>
           
         </div>
@@ -318,7 +318,7 @@
                             
                           
                       <div class="col-sm-6 mx-auto">
-                          <div class="embed-responsive embed-responsive-16by9">
+                          <div class="embed-responsive embed-responsive-16by9 ">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FM3zxdSJX5g"></iframe>
                           </div>
                       </div>
@@ -360,95 +360,24 @@
       </div>
 
 
-      <div class="container">
-          <div class="row">
-<!--              <div class="col-12 text-center my-5">
-                  <h1 class="display-4"><i class="fa fa-paper-plane text-primary" aria-hidden="true"></i> Terceira Etapa </h1>
-              </div>
-          </div>
-          -->
-          <div class="row justify-content-center mb-5">
-<!--              <div class="col-sm-12 col-md-10 col-lg-8">
-                <form>
-                  <div class="form-row">
-                      <div class="form-group col-sm-6">
-                        <label for="inputNome">Nome:</label>
-                        <input type="text" class="form-control" id="inputNome" placeholder="Nome">
-                      </div>
-                  <div class="form-group col-sm-6">
-                    <label for="inputSobrenome">Sobrenome:</label>
-                    <input type="text" class="form-control" id="inputSobrenome" placeholder="Nome">
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-sm-12">
-                      <label for="inputEnd">Endereço</label>
-                      <input type="text" class="form-control" id="inputEnd" placeholder="Endereço Completo">
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-sm-6">
-                    <label for="inputCidade">Cidade</label>
-                    <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
-                </div>
-                <div class="form-group col-sm-4">
-                  <label for="inputEst">Estado</label>
-                  <select id="inputEst" class="form-control">
-                    <option selected>Escolha...</option>
-                    <option>...</option>
-                    <option>...</option>
-                    <option>...</option>
-                  </select>
-              </div>
-              <div class="form-group col-sm-2">
-                <label for="inputCEP">CEP</label>
-                <input type="text" id="inputCEP" class="form-control">
-              </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-sm-12">
-                    <div class="form-check">
-                      <label class="form-check-label">
-                          <input class="form-check-input" type="checkbox">Desejo receber novidades por e-mail
-                      </label>
-                    </div>
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="col-sm-12">
-                  <button type="submit" class="btn btn-primary">Enviar</button>
-                  <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Ajuda" data-content="Explica como fazer o formulário">Ajuda</a>
-                </div>
-            </div>
-          </form>
-          </div>
-          </div>
-        -->
-
-        <div class="row">
-
-            <div class="col-12 mb-3"><hr></div>
-            <div class="col-sm-4">
-  
-                <h3>Curso</h3>
-                  <p>Texto Curso</p>
-                  
+      <div class="container-fluid mt-5 footer">
+     
+    <div class="row justify-content-center mt-3">
             
-            </div>
             <div class="col-sm-4">
-            <h3 class="text-center">Menu</h3>
+            <h3 class="text-center py-3 ">Menu</h3>
               
-              <div class="list-group text-center">
+              <div class="list-group text-center mb-5 ">
                 
-                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Serviços</a>
-                <a href="#" class="list-group-item list-group-item-action disabled">Depoimentos</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Serviços</a>
+                <a href="#" class="list-group-item border border-dark">Perfil</a>
+                <a href="#" class="list-group-item border border-dark">Serviços</a>
+                <a href="#" class="list-group-item border border-dark">Depoimentos</a>
+                <a href="#" class="list-group-item border border-dark">Serviços</a>
               </div>
           </div>
             <div class="col-sm-4">
 
-                <h3 class="text-center">Social</h3>
+                <h3 class="text-center py-3">Redes Sociais</h3>
                 <div class="btn-group-vertical btn-block btn-group-lg" role="group">
 
                     <a class="btn btn-outline-primary" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
@@ -457,6 +386,8 @@
 
                 </div>
               </div>
+            
+            <!--
             <div class="col-12 mt-5">
 
               <blockquote class="blockquote text-center">
@@ -467,11 +398,10 @@
               </blockquote>
 
             </div>
-  
+            -->
         </div>
+</div>
 
-
-      </div>
 
       
       
