@@ -2,6 +2,7 @@
 
 body {
   background-color: #CAE1FF; 
+    { padding-top: 70px; }
 }
 
 /************************ MENU ************************/
@@ -10,23 +11,30 @@ body {
     color:black;
 }
 
+.navbar-toggler {
+    background-color: #00BFFF;
+    border-color: black;
+    border-width: thin;
+    
+}
+
+
+
 .menu-top {
     background-color: #CAE1FF; 
     font-family: 'Sriracha', cursive;
     
 }
 
-.scrollspySite {
-  position: relative;
-  overflow: auto;
-  
-}
+
 
 .altera-fonte-brand {
-  position: relative;
-  font-size: 40px;
-  font-family: 'Sriracha', cursive;
-  color: black;
+    
+    font-size: 35px;
+    font-family: 'Sriracha', cursive;
+    color: black;
+    margin-top: 10px;
+
 }
 
 .nav-menu {
@@ -44,13 +52,9 @@ body {
     background-color: #CAE1FF;
     color: black;
     font-size: 20px;
-    grid-row: 3;
+    padding: 2px;
+    width: 131px;
     
-    position: relative;
-    flex: 0 1 auto;
-    box-sizing: border-box;
-    width: 130px;
-    text-align: center;
 }
 
 .nav-bloco-menu:hover {
@@ -64,7 +68,7 @@ body {
 .nav-bloco-moradas {
     background-color: #87CEFA;
     color: black;
-    position: relative;
+    
 }
 
 /*
@@ -131,10 +135,77 @@ body {
 
 /************************ Footer ************************/
 
+.footer-menu {
+    background-color: #3A5FCD;
+    color: white;
+     border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+
+
+.footer-menu:hover {
+  background-color: #0000EE;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-facebook {
+    background-color: #4876FF;
+    color: white;
+     border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-facebook:hover {
+    background-color: #0000EE;
+    color: white;
+     border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+
+
+
+.footer-menu-youtube {
+    background-color: #FF4500;
+    color: white;
+     border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-youtube:hover {
+    background-color: red;
+    color: white;
+     border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-instagram {
+    background-color: #FFA500;
+    color: white;
+     border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-instagram:hover {
+    background-color: #FF7F00;
+    color: white;
+     border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
 .footer {
     background-color: #B2DFEE;
 
     margin-top: auto;
 }
-
-
